@@ -616,7 +616,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "본 시험은 대한민국의 다양한 치킨 브랜드들을 감별할\n수 있는지에 대한 능력을 검증하는 자격 시험입니다.\n\n본 시험은 응시 시작 후, 완료 전에는 뒤로가기가 \n불가합니다.\n",
+              "text": "본 시험은 대한민국의 다양한 치킨 브랜드들을 감별할\n수 있는지에 대한 능력을 검증하는 자격 시험입니다.\n\n본 시험은 응시 시작 후, 완료 전에는 홈화면으로 \n돌아가기가 불가합니다.\n",
               "key": "93rt9884uf",
               "isDeprecated": false,
               "rightColumn": 63,
