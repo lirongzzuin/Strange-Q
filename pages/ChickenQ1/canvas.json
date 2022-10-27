@@ -464,7 +464,7 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "progress": "20\n"
+              "progress": "0"
             },
             {
               "widgetName": "Text1",
