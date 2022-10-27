@@ -391,6 +391,7 @@
               "resetFormOnClick": false,
               "boxShadow": "none",
               "widgetName": "Button1",
+              "onClick": "{{navigateTo('ChickenQ1', {}, 'SAME_WINDOW')}}",
               "buttonColor": "#71717a",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -405,7 +406,11 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 6.84375,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
               "leftColumn": 1,
               "dynamicBindingPathList": [
                 {
@@ -433,6 +438,7 @@
             {
               "boxShadow": "none",
               "widgetName": "Image1",
+              "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW')}}",
               "displayName": "Image",
               "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
               "topRow": 8,
@@ -442,7 +448,11 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 6.84375,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
               "imageShape": "RECTANGLE",
               "leftColumn": 0,
               "dynamicBindingPathList": [],
