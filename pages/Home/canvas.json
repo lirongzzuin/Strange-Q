@@ -338,7 +338,7 @@
               "resetFormOnClick": false,
               "boxShadow": "none",
               "widgetName": "Button1",
-              "onClick": "{{navigateTo('ChickenQ1', {}, 'SAME_WINDOW')}}",
+              "onClick": "{{navigateTo('ChickenQPage', {}, 'SAME_WINDOW')}}",
               "buttonColor": "#71717a",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
