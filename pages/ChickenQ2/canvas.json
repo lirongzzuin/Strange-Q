@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1 Copy",
-    "slug": "page1-copy",
+    "name": "ChickenQ2",
+    "slug": "chickenq2",
     "layouts": [
       {
         "viewMode": false,
@@ -406,19 +406,19 @@
                 }
               ],
               "key": "3dug9f4uaf",
-              "showResult": true,
+              "showResult": false,
               "isDeprecated": false,
               "rightColumn": 61,
               "counterClosewise": false,
               "widgetId": "2giebv09sm",
               "isVisible": true,
-              "steps": "1",
+              "steps": 1,
               "version": 1,
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "progress": "20\n"
+              "progress": "50"
             },
             {
               "widgetName": "Text1",
@@ -474,15 +474,16 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1 Copy",
+        "id": "ChickenQ2",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6358bf49561dcd1ffe6d1684_6359e1592d2bae0de0e3e740"
+  "gitSyncId": "6358bf49561dcd1ffe6d1684_6359e1948e104a35881fd95e"
 }

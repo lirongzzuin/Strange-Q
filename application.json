@@ -1,23 +1,19 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Home",
       "isDefault": true
     },
     {
-      "id": "Page2",
+      "id": "MyPage",
       "isDefault": false
     },
     {
-      "id": "Page1 Copy",
+      "id": "ChickenQ1",
       "isDefault": false
     },
     {
-      "id": "Page3",
-      "isDefault": false
-    },
-    {
-      "id": "Page1 Copy1",
+      "id": "ChickenQ2",
       "isDefault": false
     }
   ],
