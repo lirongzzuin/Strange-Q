@@ -27,319 +27,45 @@
           "leftColumn": 0,
           "children": [
             {
-              "tabId": "",
-              "boxShadow": "NONE",
-              "widgetName": "Container1",
-              "borderColor": "#E0DEDE",
-              "isCanvas": true,
-              "displayName": "Container",
-              "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
-              "searchTags": [
-                "div",
-                "parent",
-                "group"
-              ],
-              "topRow": 38,
-              "bottomRow": 60,
-              "parentRowSpace": 10,
-              "type": "CONTAINER_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "parentColumnSpace": 4.81201171875,
-              "leftColumn": 2,
-              "children": [
-                {
-                  "rightColumn": 307.96875,
-                  "widgetName": "Canvas1",
-                  "detachFromLayout": true,
-                  "widgetId": "h19siylscd",
-                  "containerStyle": "none",
-                  "bottomRow": 136.875,
-                  "topRow": 0,
-                  "parentRowSpace": 1,
-                  "isVisible": true,
-                  "type": "CANVAS_WIDGET",
-                  "canExtend": false,
-                  "version": 1,
-                  "parentId": "suw0ytxu8w",
-                  "props": {
-                    "containerStyle": "none",
-                    "canExtend": false,
-                    "detachFromLayout": true,
-                    "children": []
-                  },
-                  "isLoading": false,
-                  "minHeight": 136.875,
-                  "renderMode": "CANVAS",
-                  "parentColumnSpace": 1,
-                  "leftColumn": 0,
-                  "children": [
-                    {
-                      "widgetName": "Checkbox5",
-                      "displayName": "Checkbox",
-                      "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
-                      "searchTags": [
-                        "boolean"
-                      ],
-                      "topRow": 16,
-                      "bottomRow": 20,
-                      "parentRowSpace": 10,
-                      "type": "CHECKBOX_WIDGET",
-                      "alignWidget": "LEFT",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 4.81201171875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 0,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "accentColor"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "labelPosition": "Left",
-                      "isDisabled": false,
-                      "key": "2bxukfjrhb",
-                      "isRequired": false,
-                      "isDeprecated": false,
-                      "rightColumn": 64,
-                      "widgetId": "1zaw15kt42",
-                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "isVisible": true,
-                      "label": "푸라닭",
-                      "version": 1,
-                      "parentId": "h19siylscd",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "defaultCheckedState": false
-                    },
-                    {
-                      "widgetName": "Checkbox4",
-                      "displayName": "Checkbox",
-                      "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
-                      "searchTags": [
-                        "boolean"
-                      ],
-                      "topRow": 12,
-                      "bottomRow": 16,
-                      "parentRowSpace": 10,
-                      "type": "CHECKBOX_WIDGET",
-                      "alignWidget": "LEFT",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 4.81201171875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 0,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "accentColor"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "labelPosition": "Left",
-                      "isDisabled": false,
-                      "key": "2bxukfjrhb",
-                      "isRequired": false,
-                      "isDeprecated": false,
-                      "rightColumn": 64,
-                      "widgetId": "k5uegj0ybk",
-                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "isVisible": true,
-                      "label": "BHC",
-                      "version": 1,
-                      "parentId": "h19siylscd",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "defaultCheckedState": false
-                    },
-                    {
-                      "widgetName": "Checkbox3",
-                      "displayName": "Checkbox",
-                      "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
-                      "searchTags": [
-                        "boolean"
-                      ],
-                      "topRow": 8,
-                      "bottomRow": 12,
-                      "parentRowSpace": 10,
-                      "type": "CHECKBOX_WIDGET",
-                      "alignWidget": "LEFT",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 4.81201171875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 0,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "accentColor"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "labelPosition": "Left",
-                      "isDisabled": false,
-                      "key": "2bxukfjrhb",
-                      "isRequired": false,
-                      "isDeprecated": false,
-                      "rightColumn": 64,
-                      "widgetId": "2wjae0izt6",
-                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "isVisible": true,
-                      "label": "BBQ",
-                      "version": 1,
-                      "parentId": "h19siylscd",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "defaultCheckedState": false
-                    },
-                    {
-                      "widgetName": "Checkbox2",
-                      "displayName": "Checkbox",
-                      "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
-                      "searchTags": [
-                        "boolean"
-                      ],
-                      "topRow": 4,
-                      "bottomRow": 8,
-                      "parentRowSpace": 10,
-                      "type": "CHECKBOX_WIDGET",
-                      "alignWidget": "LEFT",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 4.81201171875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 0,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "accentColor"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "labelPosition": "Left",
-                      "isDisabled": false,
-                      "key": "2bxukfjrhb",
-                      "isRequired": false,
-                      "isDeprecated": false,
-                      "rightColumn": 64,
-                      "widgetId": "n6rdgcpd26",
-                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "isVisible": true,
-                      "label": "60계치킨",
-                      "version": 1,
-                      "parentId": "h19siylscd",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "defaultCheckedState": false
-                    },
-                    {
-                      "widgetName": "Checkbox1",
-                      "displayName": "Checkbox",
-                      "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
-                      "searchTags": [
-                        "boolean"
-                      ],
-                      "topRow": 0,
-                      "bottomRow": 4,
-                      "parentRowSpace": 10,
-                      "type": "CHECKBOX_WIDGET",
-                      "alignWidget": "LEFT",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 4.81201171875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 0,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "accentColor"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "labelPosition": "Left",
-                      "isDisabled": false,
-                      "key": "2bxukfjrhb",
-                      "isRequired": false,
-                      "isDeprecated": false,
-                      "rightColumn": 64,
-                      "widgetId": "3mtynnlhh4",
-                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "isVisible": true,
-                      "label": "굽네치킨",
-                      "version": 1,
-                      "parentId": "h19siylscd",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "defaultCheckedState": false
-                    }
-                  ]
-                }
-              ],
-              "borderWidth": "1",
-              "key": "l5q9cwv0ca",
-              "backgroundColor": "#FFFFFF",
-              "isDeprecated": false,
-              "rightColumn": 61,
-              "widgetId": "suw0ytxu8w",
-              "containerStyle": "card",
-              "isVisible": true,
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false
-            },
-            {
               "boxShadow": "none",
-              "widgetName": "Audio1",
-              "displayName": "Audio",
-              "iconSVG": "/static/media/icon.cb54df7a09016b0af5e520895be927b9.svg",
+              "widgetName": "IconButton1Copy",
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "displayName": "Icon Button",
+              "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
               "searchTags": [
-                "mp3",
-                "sound",
-                "wave",
-                "player"
+                "click",
+                "submit"
               ],
-              "topRow": 34,
-              "bottomRow": 38,
+              "topRow": 5,
+              "bottomRow": 9,
               "parentRowSpace": 10,
-              "type": "AUDIO_WIDGET",
+              "type": "ICON_BUTTON_WIDGET",
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 6.84375,
-              "leftColumn": 2,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 1,
               "dynamicBindingPathList": [
                 {
-                  "key": "borderRadius"
+                  "key": "buttonColor"
                 },
                 {
-                  "key": "accentColor"
+                  "key": "borderRadius"
                 }
               ],
-              "key": "lawrpm0odf",
+              "isDisabled": false,
+              "key": "wiiq4ripbj",
               "isDeprecated": false,
-              "rightColumn": 61,
-              "widgetId": "b67y0aaok1",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "rightColumn": 6,
+              "iconName": "chevron-left",
+              "widgetId": "f73ucxwkio",
               "isVisible": true,
               "version": 1,
-              "url": "https://assets.appsmith.com/widgets/birds_chirping.mp3",
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "autoPlay": false
+              "buttonVariant": "TERTIARY"
             },
             {
               "boxShadow": "none",
@@ -361,12 +87,12 @@
                   "key": "borderRadius"
                 }
               ],
-              "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+              "defaultImage": "https://post-phinf.pstatic.net/MjAyMTA2MDRfMjk4/MDAxNjIyODA1OTU1MTE1.qWi2l0NNsv4YLgoyzqxYCIvUSHuEGA1kUIn7PMDrUfYg.TrXGO2MLwojsA5kC-h7Ug-noksU3CQdFLLUFHE_tpqgg.JPEG/%EA%B3%B5%EB%A3%A1_%EC%9C%A0%ED%8A%9C%EB%B8%8C_%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg?type=w1200",
               "key": "e4eqmj2hfi",
-              "image": "https://cphoto.asiae.co.kr/listimglink/6/2019052413294944283_1558672189.jpg",
+              "image": "",
               "isDeprecated": false,
               "rightColumn": 61,
-              "objectFit": "cover",
+              "objectFit": "contain",
               "widgetId": "y2s73dxlqc",
               "isVisible": true,
               "version": 1,
@@ -396,7 +122,7 @@
               "fillColor": "{{appsmith.theme.colors.primaryColor}}",
               "parentColumnSpace": 6.84375,
               "dynamicTriggerPathList": [],
-              "leftColumn": 2,
+              "leftColumn": 7,
               "dynamicBindingPathList": [
                 {
                   "key": "fillColor"
@@ -406,19 +132,19 @@
                 }
               ],
               "key": "3dug9f4uaf",
-              "showResult": false,
+              "showResult": true,
               "isDeprecated": false,
-              "rightColumn": 61,
+              "rightColumn": 56,
               "counterClosewise": false,
               "widgetId": "2giebv09sm",
               "isVisible": true,
-              "steps": 1,
+              "steps": "1",
               "version": 1,
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "progress": "50"
+              "progress": "30"
             },
             {
               "widgetName": "Text1",
@@ -453,7 +179,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "다음 CM송에 해당하는 치킨 브랜드를 맞추시오. \n(2초 재생)",
+              "text": "치킨은 공룡이라는 말이 있다.\n그 이유를 설명하시오. (특정 단어 포함 필수)",
               "key": "mcqv1r1hg0",
               "isDeprecated": false,
               "rightColumn": 61,
@@ -467,7 +193,101 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "fontSize": "1rem"
+              "fontSize": "0.875rem"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "IconButton1",
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "displayName": "Icon Button",
+              "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+              "searchTags": [
+                "click",
+                "submit"
+              ],
+              "topRow": 5,
+              "bottomRow": 9,
+              "parentRowSpace": 10,
+              "type": "ICON_BUTTON_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 57,
+              "dynamicBindingPathList": [
+                {
+                  "key": "buttonColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "isDisabled": false,
+              "key": "wiiq4ripbj",
+              "isDeprecated": false,
+              "rightColumn": 62,
+              "iconName": "chevron-right",
+              "widgetId": "zja2acypw5",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "buttonVariant": "TERTIARY"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Input1",
+              "displayName": "Input",
+              "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+              "searchTags": [
+                "form",
+                "text input",
+                "number",
+                "textarea"
+              ],
+              "topRow": 34,
+              "bottomRow": 38,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "autoFocus": false,
+              "type": "INPUT_WIDGET_V2",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [],
+              "resetOnSubmit": true,
+              "leftColumn": 2,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelPosition": "Left",
+              "labelStyle": "",
+              "inputType": "TEXT",
+              "isDisabled": false,
+              "key": "nce0lwijap",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 62,
+              "widgetId": "vpbn75u1hn",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "label": "정답",
+              "version": 2,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "iconAlign": "left",
+              "defaultText": ""
             }
           ]
         },
@@ -485,5 +305,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6358bf49561dcd1ffe6d1684_6359e1948e104a35881fd95e"
+  "gitSyncId": "6358bf49561dcd1ffe6d1684_635a2d7f8e104a35881fdde8"
 }
