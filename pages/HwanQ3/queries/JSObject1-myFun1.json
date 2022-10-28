@@ -13,13 +13,13 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "HwanQ1",
-    "collectionId": "HwanQ1_JSObject1",
+    "pageId": "HwanQ3",
+    "collectionId": "HwanQ3_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  if (Input1.text.length < 1) {\n    navigateTo('HwanQ1', {}, 'SAME_WINDOW');\n  } else if (Input1.text.includes('이현' && '민기')) {\n    storeValue('answer', 10);\n    navigateTo('HwanQ2', {}, 'SAME_WINDOW');\n  } else {\n    navigateTo('HwanQ2', {}, 'SAME_WINDOW');\n  }\n}",
+      "body": "() => {\n  if (Checkbox1.isChecked == false && Checkbox2.isChecked == false && Checkbox3.isChecked == false && Checkbox4.isChecked == false && Checkbox5.isChecked == false) {\n    navigateTo('HwanQ3', {}, 'SAME_WINDOW');\n  } else {\n    navigateTo('HwanQ4', {}, 'SAME_WINDOW');\n  }\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
@@ -35,14 +35,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  if (Input1.text.length < 1) {\n    navigateTo('HwanQ1', {}, 'SAME_WINDOW');\n  } else if (Input1.text.includes('이현' && '민기')) {\n    storeValue('answer', 10);\n    navigateTo('HwanQ2', {}, 'SAME_WINDOW');\n  } else {\n    navigateTo('HwanQ2', {}, 'SAME_WINDOW');\n  }\n}"
+      "() => {\n  if (Checkbox1.isChecked == false && Checkbox2.isChecked == false && Checkbox3.isChecked == false && Checkbox4.isChecked == false && Checkbox5.isChecked == false) {\n    navigateTo('HwanQ3', {}, 'SAME_WINDOW');\n  } else {\n    navigateTo('HwanQ4', {}, 'SAME_WINDOW');\n  }\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "HwanQ1_JSObject1.myFun1",
+  "id": "HwanQ3_JSObject1.myFun1",
   "deleted": false,
-  "gitSyncId": "6358bf49561dcd1ffe6d1684_635b6ec48e104a35881ff358"
+  "gitSyncId": "6358bf49561dcd1ffe6d1684_635b7b096278c10e2bf9c205"
 }

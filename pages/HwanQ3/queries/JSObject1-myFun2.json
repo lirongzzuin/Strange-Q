@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "myFun2",
-    "fullyQualifiedName": "JSObject2.myFun2",
+    "fullyQualifiedName": "JSObject1.myFun2",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "HwanQ1",
-    "collectionId": "HwanQ1_JSObject2",
+    "pageId": "HwanQ3",
+    "collectionId": "HwanQ3_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -42,7 +42,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "HwanQ1_JSObject2.myFun2",
+  "id": "HwanQ3_JSObject1.myFun2",
   "deleted": false,
-  "gitSyncId": "6358bf49561dcd1ffe6d1684_635b70a98e104a35881ff3a0"
+  "gitSyncId": "6358bf49561dcd1ffe6d1684_635b7b096278c10e2bf9c206"
 }

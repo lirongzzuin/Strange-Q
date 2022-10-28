@@ -72,7 +72,7 @@
               "validation": "{{Input1.text.size < 1}}",
               "labelTextSize": "0.875rem",
               "isRequired": false,
-              "onTextChanged": "{{JSObject2.myFun1()}}",
+              "onTextChanged": "",
               "isDeprecated": false,
               "rightColumn": 62,
               "widgetId": "vdqxp77s3r",
