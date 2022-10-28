@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Home",
+      "id": "Login Home",
       "isDefault": true
+    },
+    {
+      "id": "Main",
+      "isDefault": false
     },
     {
       "id": "MyPage",
