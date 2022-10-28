@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 870,
+          "bottomRow": 910,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -37,8 +37,8 @@
                 "number",
                 "textarea"
               ],
-              "topRow": 75,
-              "bottomRow": 79,
+              "topRow": 80,
+              "bottomRow": 84,
               "parentRowSpace": 10,
               "labelWidth": 5,
               "autoFocus": false,
@@ -286,7 +286,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "다음은 환승연애2 OST의 도입부이다. 노래 제목은 무엇인가?\n(정확히 기입 - 5초 재생)",
+              "text": "다음은 환승연애2 OST의 도입부이다. 노래 제목은 무엇인가?\n(정확히 기입 - 10초 재생)",
               "key": "mcqv1r1hg0",
               "isDeprecated": false,
               "rightColumn": 61,
@@ -313,8 +313,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 79,
-              "bottomRow": 83,
+              "topRow": 84,
+              "bottomRow": 88,
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
@@ -360,7 +360,7 @@
                 "player"
               ],
               "topRow": 67,
-              "bottomRow": 75,
+              "bottomRow": 80,
               "parentRowSpace": 10,
               "type": "AUDIO_WIDGET",
               "hideCard": false,
@@ -383,12 +383,12 @@
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,
               "version": 1,
-              "url": "https://drive.google.com/file/d/1HJr6JfdeiUv5HJQ_6mxMEcdNvscex5Nk/view?usp=sharing",
+              "url": "https://soundcloud.com/kdevz1yypcha/y2mate-mp3cutnet?si=bcc8a734ac324c8bb347ceb37c538224&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "autoPlay": false
+              "autoPlay": true
             }
           ]
         },
