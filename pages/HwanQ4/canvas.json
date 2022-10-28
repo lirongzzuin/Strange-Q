@@ -89,7 +89,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 4.81201171875,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onCheckChange"
+                        }
+                      ],
                       "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
@@ -100,6 +104,7 @@
                         }
                       ],
                       "labelPosition": "Left",
+                      "onCheckChange": "{{storeValue('answer','10')}}",
                       "isDisabled": false,
                       "key": "2bxukfjrhb",
                       "isRequired": false,

@@ -27,57 +27,241 @@
           "leftColumn": 0,
           "children": [
             {
-              "boxShadow": "none",
-              "widgetName": "Input1",
-              "displayName": "Input",
-              "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+              "tabId": "",
+              "boxShadow": "NONE",
+              "widgetName": "Container1",
+              "borderColor": "#E0DEDE",
+              "isCanvas": true,
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
               "searchTags": [
-                "form",
-                "text input",
-                "number",
-                "textarea"
+                "div",
+                "parent",
+                "group"
               ],
               "topRow": 34,
-              "bottomRow": 38,
+              "bottomRow": 52,
               "parentRowSpace": 10,
-              "labelWidth": 5,
-              "autoFocus": false,
-              "type": "INPUT_WIDGET_V2",
+              "type": "CONTAINER_WIDGET",
               "hideCard": false,
               "animateLoading": true,
-              "parentColumnSpace": 6.84375,
-              "dynamicTriggerPathList": [],
-              "resetOnSubmit": true,
+              "parentColumnSpace": 4.81201171875,
               "leftColumn": 2,
-              "dynamicBindingPathList": [
+              "children": [
                 {
-                  "key": "accentColor"
-                },
-                {
-                  "key": "borderRadius"
+                  "rightColumn": 307.96875,
+                  "widgetName": "Canvas1",
+                  "detachFromLayout": true,
+                  "widgetId": "8o1blkysxx",
+                  "containerStyle": "none",
+                  "bottomRow": 180,
+                  "topRow": 0,
+                  "parentRowSpace": 1,
+                  "isVisible": true,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "version": 1,
+                  "parentId": "l6ulpdgv0l",
+                  "props": {
+                    "containerStyle": "none",
+                    "canExtend": false,
+                    "detachFromLayout": true,
+                    "children": []
+                  },
+                  "isLoading": false,
+                  "minHeight": 136.875,
+                  "renderMode": "CANVAS",
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "children": [
+                    {
+                      "widgetName": "Checkbox4",
+                      "displayName": "Checkbox",
+                      "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
+                      "searchTags": [
+                        "boolean"
+                      ],
+                      "topRow": 12,
+                      "bottomRow": 16,
+                      "parentRowSpace": 10,
+                      "type": "CHECKBOX_WIDGET",
+                      "alignWidget": "LEFT",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 4.81201171875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "labelPosition": "Left",
+                      "isDisabled": false,
+                      "key": "2bxukfjrhb",
+                      "isRequired": false,
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "widgetId": "7gpw8ebdav",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "label": "태이&지연 - 1년 6개월",
+                      "version": 1,
+                      "parentId": "8o1blkysxx",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "defaultCheckedState": false
+                    },
+                    {
+                      "widgetName": "Checkbox3",
+                      "displayName": "Checkbox",
+                      "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
+                      "searchTags": [
+                        "boolean"
+                      ],
+                      "topRow": 8,
+                      "bottomRow": 12,
+                      "parentRowSpace": 10,
+                      "type": "CHECKBOX_WIDGET",
+                      "alignWidget": "LEFT",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 4.81201171875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "labelPosition": "Left",
+                      "isDisabled": false,
+                      "key": "2bxukfjrhb",
+                      "isRequired": false,
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "widgetId": "gxwhv8uz2o",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "label": "현규&나언 - 2년 6개월",
+                      "version": 1,
+                      "parentId": "8o1blkysxx",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "defaultCheckedState": false
+                    },
+                    {
+                      "widgetName": "Checkbox2",
+                      "displayName": "Checkbox",
+                      "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
+                      "searchTags": [
+                        "boolean"
+                      ],
+                      "topRow": 4,
+                      "bottomRow": 8,
+                      "parentRowSpace": 10,
+                      "type": "CHECKBOX_WIDGET",
+                      "alignWidget": "LEFT",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 4.81201171875,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onCheckChange"
+                        }
+                      ],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "labelPosition": "Left",
+                      "onCheckChange": "{{storeValue('answer','10')}}",
+                      "isDisabled": false,
+                      "key": "2bxukfjrhb",
+                      "isRequired": false,
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "widgetId": "ejbxky96nq",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "label": "희두&나연 - 8개월",
+                      "version": 1,
+                      "parentId": "8o1blkysxx",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "defaultCheckedState": false
+                    },
+                    {
+                      "widgetName": "Checkbox1",
+                      "displayName": "Checkbox",
+                      "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
+                      "searchTags": [
+                        "boolean"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "parentRowSpace": 10,
+                      "type": "CHECKBOX_WIDGET",
+                      "alignWidget": "LEFT",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 4.81201171875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "labelPosition": "Left",
+                      "isDisabled": false,
+                      "key": "2bxukfjrhb",
+                      "isRequired": false,
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "widgetId": "ejlvpjx334",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "label": "규민&해은 - 1년 3개월",
+                      "version": 1,
+                      "parentId": "8o1blkysxx",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "defaultCheckedState": false
+                    }
+                  ]
                 }
               ],
-              "labelPosition": "Left",
-              "labelStyle": "",
-              "inputType": "TEXT",
-              "isDisabled": false,
-              "key": "nce0lwijap",
-              "labelTextSize": "0.875rem",
-              "isRequired": false,
+              "borderWidth": "1",
+              "key": "l5q9cwv0ca",
+              "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 62,
-              "widgetId": "e7p08d3orr",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "rightColumn": 61,
+              "widgetId": "l6ulpdgv0l",
+              "containerStyle": "card",
               "isVisible": true,
-              "label": "정답",
-              "version": 2,
+              "version": 1,
               "parentId": "0",
-              "labelAlignment": "left",
               "renderMode": "CANVAS",
-              "isLoading": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "iconAlign": "left",
-              "defaultText": ""
+              "isLoading": false
             },
             {
               "widgetName": "Progress1",
@@ -173,7 +357,7 @@
             {
               "boxShadow": "none",
               "widgetName": "IconButton1",
-              "onClick": "{{navigateTo('HwanQ3', {}, 'SAME_WINDOW')}}",
+              "onClick": "{{navigateTo('HwanQ9', {}, 'SAME_WINDOW')}}",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "displayName": "Icon Button",
               "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -282,7 +466,7 @@
                   "key": "borderRadius"
                 }
               ],
-              "defaultImage": "https://img.insight.co.kr/static/2022/08/13/700/img_20220813091051_x6np9c3k.webp",
+              "defaultImage": "https://i.ytimg.com/vi/zTO4ySbMb08/maxresdefault.jpg",
               "key": "e4eqmj2hfi",
               "image": "",
               "isDeprecated": false,
@@ -332,7 +516,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "출연자 나연의 반려견 이름은 무엇인가?",
+              "text": "다음 중 이별한 기간이 잘 못 짝지어진 X커플은?",
               "key": "mcqv1r1hg0",
               "isDeprecated": false,
               "rightColumn": 61,
