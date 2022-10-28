@@ -340,7 +340,7 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "progress": "10"
+              "progress": "40"
             },
             {
               "widgetName": "Text2",
@@ -440,7 +440,7 @@
             {
               "boxShadow": "none",
               "widgetName": "IconButton1Copy",
-              "onClick": "{{navigateTo('ChickenQ1', {}, 'SAME_WINDOW')}}",
+              "onClick": "{{navigateTo('HwanQ4', {}, 'SAME_WINDOW')}}",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "displayName": "Icon Button",
               "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
