@@ -56,7 +56,7 @@
                   "key": "borderRadius"
                 }
               ],
-              "text": "환승연애 과몰입 자격시험",
+              "text": "환승연애2 과몰입 자격시험",
               "isDisabled": false,
               "key": "ukmc7qd6us",
               "isDeprecated": false,
@@ -193,7 +193,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "금주 인기 TOP 3",
+              "text": "금주 인기 TOP 3 (준비중)",
               "key": "dp4u29igsp",
               "isDeprecated": false,
               "rightColumn": 61,
