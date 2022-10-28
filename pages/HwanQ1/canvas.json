@@ -46,7 +46,11 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 6.84375,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onTextChanged"
+                }
+              ],
               "resetOnSubmit": true,
               "leftColumn": 2,
               "dynamicBindingPathList": [
@@ -55,6 +59,9 @@
                 },
                 {
                   "key": "borderRadius"
+                },
+                {
+                  "key": "validation"
                 }
               ],
               "labelPosition": "Left",
@@ -62,12 +69,15 @@
               "inputType": "TEXT",
               "isDisabled": false,
               "key": "nce0lwijap",
+              "validation": "{{Input1.text.size < 1}}",
               "labelTextSize": "0.875rem",
               "isRequired": false,
+              "onTextChanged": "{{JSObject2.myFun1()}}",
               "isDeprecated": false,
               "rightColumn": 62,
               "widgetId": "vdqxp77s3r",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "errorMessage": "정답을 기입해주세요! (모르겠으면 '모르겠음')",
               "isVisible": true,
               "label": "정답",
               "version": 2,
@@ -210,7 +220,7 @@
             {
               "boxShadow": "none",
               "widgetName": "IconButton1",
-              "onClick": "{{navigateTo('HwanQ2', {}, 'SAME_WINDOW')}}",
+              "onClick": "{{JSObject1.myFun1()}}",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "displayName": "Icon Button",
               "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
