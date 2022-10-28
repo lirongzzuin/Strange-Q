@@ -76,6 +76,11 @@
                   "children": [
                     {
                       "widgetName": "Checkbox5",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "isDisabled"
+                        }
+                      ],
                       "displayName": "Checkbox",
                       "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
                       "searchTags": [
@@ -89,7 +94,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 4.81201171875,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onCheckChange"
+                        }
+                      ],
                       "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
@@ -100,7 +109,8 @@
                         }
                       ],
                       "labelPosition": "Left",
-                      "isDisabled": false,
+                      "onCheckChange": "{{JSObject_Checkbox5.myFun1()}}",
+                      "isDisabled": "false",
                       "key": "2bxukfjrhb",
                       "isRequired": false,
                       "isDeprecated": false,
@@ -146,7 +156,7 @@
                         }
                       ],
                       "labelPosition": "Left",
-                      "onCheckChange": "{{storeValue('answer','10')}}",
+                      "onCheckChange": "{{JSObject_Checkbox4.myFun1()}}",
                       "isDisabled": false,
                       "key": "2bxukfjrhb",
                       "isRequired": false,
@@ -178,7 +188,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 4.81201171875,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onCheckChange"
+                        }
+                      ],
                       "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
@@ -189,6 +203,7 @@
                         }
                       ],
                       "labelPosition": "Left",
+                      "onCheckChange": "{{JSObject_Checkbox3.myFun1()}}",
                       "isDisabled": false,
                       "key": "2bxukfjrhb",
                       "isRequired": false,
@@ -220,7 +235,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 4.81201171875,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onCheckChange"
+                        }
+                      ],
                       "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
@@ -231,6 +250,7 @@
                         }
                       ],
                       "labelPosition": "Left",
+                      "onCheckChange": "{{JSObject_Checkbox2.myFun1()}}",
                       "isDisabled": false,
                       "key": "2bxukfjrhb",
                       "isRequired": false,
@@ -262,7 +282,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 4.81201171875,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onCheckChange"
+                        }
+                      ],
                       "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
@@ -273,6 +297,7 @@
                         }
                       ],
                       "labelPosition": "Left",
+                      "onCheckChange": "{{JSObject_Checkbox1.myFun1()}}",
                       "isDisabled": false,
                       "key": "2bxukfjrhb",
                       "isRequired": false,
@@ -399,7 +424,7 @@
             {
               "boxShadow": "none",
               "widgetName": "IconButton1",
-              "onClick": "{{navigateTo('HwanQ3', {}, 'SAME_WINDOW')}}",
+              "onClick": "{{JSObject1.myFun1()}}",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "displayName": "Icon Button",
               "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
