@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "HwanQ5",
-    "slug": "hwanq5",
+    "name": "HwanQ7",
+    "slug": "hwanq7",
     "layouts": [
       {
         "viewMode": false,
@@ -340,7 +340,7 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "progress": "40"
+              "progress": "60"
             },
             {
               "widgetName": "Text2",
@@ -394,7 +394,7 @@
             {
               "boxShadow": "none",
               "widgetName": "IconButton1",
-              "onClick": "{{navigateTo('HwanQ6', {}, 'SAME_WINDOW')}}",
+              "onClick": "{{navigateTo('HwanQ8', {}, 'SAME_WINDOW')}}",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "displayName": "Icon Button",
               "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -440,7 +440,7 @@
             {
               "boxShadow": "none",
               "widgetName": "IconButton1Copy",
-              "onClick": "{{navigateTo('HwanQ4', {}, 'SAME_WINDOW')}}",
+              "onClick": "{{navigateTo('HwanQ6', {}, 'SAME_WINDOW')}}",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "displayName": "Icon Button",
               "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -574,7 +574,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "HwanQ5",
+        "id": "HwanQ7",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -585,5 +585,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6358bf49561dcd1ffe6d1684_635b36188e104a35881ff086"
+  "gitSyncId": "6358bf49561dcd1ffe6d1684_635b40f22d2bae0de0e400a0"
 }
