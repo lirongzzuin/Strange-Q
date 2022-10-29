@@ -115,7 +115,7 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "progress": "0"
+              "progress": "60"
             },
             {
               "resetFormOnClick": false,
@@ -409,6 +409,7 @@
                     },
                     {
                       "widgetName": "Checkbox1",
+                      "dynamicPropertyPathList": [],
                       "displayName": "Checkbox",
                       "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
                       "searchTags": [
