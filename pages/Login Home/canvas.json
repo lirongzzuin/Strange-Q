@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Home",
-    "slug": "home",
+    "name": "Login Home",
+    "slug": "login-home",
     "layouts": [
       {
         "viewMode": false,
@@ -1200,7 +1200,7 @@
                   "widgetName": "Canvas3",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 400,
+                  "bottomRow": 408,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": true,
@@ -1395,42 +1395,6 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
-                    },
-                    {
-                      "boxShadow": "none",
-                      "widgetName": "Camera1",
-                      "isCanvas": false,
-                      "displayName": "Camera",
-                      "iconSVG": "/static/media/icon.79c0d6de26a15bf464f2485130faa461.svg",
-                      "searchTags": [
-                        "photo",
-                        "video recorder"
-                      ],
-                      "topRow": 6,
-                      "bottomRow": 20,
-                      "parentRowSpace": 10,
-                      "type": "CAMERA_WIDGET",
-                      "hideCard": false,
-                      "mode": "CAMERA",
-                      "parentColumnSpace": 5.0859375,
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "isDisabled": false,
-                      "key": "h3rz86iddk",
-                      "isMirrored": true,
-                      "isDeprecated": false,
-                      "rightColumn": 42,
-                      "widgetId": "i8mt9acuek",
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "x5f3f3ozu2",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
                     }
                   ],
                   "isDisabled": false,
@@ -1561,7 +1525,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Home",
+        "id": "Login Home",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -1572,5 +1536,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6358bf49561dcd1ffe6d1684_6358bf49561dcd1ffe6d1686"
+  "gitSyncId": "6358bf49561dcd1ffe6d1684_635b8a566278c10e2bf9c360"
 }

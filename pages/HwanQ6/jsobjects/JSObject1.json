@@ -6,7 +6,7 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\tif(Input1.text.length < 1){\n\t\t\tnavigateTo('HwanQ6', {}, 'SAME_WINDOW');\n\t\t} else if(Input1.text.includes('밤비')){\n\t\t\tstoreValue('answer', 10);\n\t\t\tnavigateTo('HwanQ7', {}, 'SAME_WINDOW');\n\t\t} else {\n\t\t\tnavigateTo('HwanQ7', {}, 'SAME_WINDOW');\n\t\t}\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
     "variables": [
       {
         "name": "myVar1",

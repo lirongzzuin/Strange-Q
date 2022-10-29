@@ -19,10 +19,10 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {}",
+      "body": "() => {\n  if (Checkbox1.isChecked == false && Checkbox2.isChecked == false && Checkbox3.isChecked == false && Checkbox4.isChecked == false && Checkbox5.isChecked == false) {\n    navigateTo('HwanQ5', {}, 'SAME_WINDOW');\n  } else {\n    navigateTo('HwanQ6', {}, 'SAME_WINDOW');\n  }\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
-      "isAsync": false
+      "isAsync": true
     },
     "executeOnLoad": false,
     "clientSideExecution": true,
@@ -35,7 +35,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {}"
+      "() => {\n  if (Checkbox1.isChecked == false && Checkbox2.isChecked == false && Checkbox3.isChecked == false && Checkbox4.isChecked == false && Checkbox5.isChecked == false) {\n    navigateTo('HwanQ5', {}, 'SAME_WINDOW');\n  } else {\n    navigateTo('HwanQ6', {}, 'SAME_WINDOW');\n  }\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

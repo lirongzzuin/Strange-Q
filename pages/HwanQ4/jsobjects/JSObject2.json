@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "HwanQ4",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\tif(Checkbox1.isChecked==true){\n\t\t\tCheckbox2.isDisabled==true;\n\t\t\tCheckbox3.isDisabled==true;\n\t\t\tCheckbox4.isDisabled==true;\n\t\t\tCheckbox5.isDisabled==true;\n\t\t} else if (Checkbox2.isChecked==true){\n\t\t\tCheckbox1.isDisabled==true;\n\t\t\tCheckbox3.isDisabled==true;\n\t\t\tCheckbox4.isDisabled==true;\n\t\t\tCheckbox5.isDisabled==true;\n\t\t} else if (Checkbox3.isChecked==true){\n\t\t\tCheckbox2.isDisabled==true;\n\t\t\tCheckbox1.isDisabled==true;\n\t\t\tCheckbox4.isDisabled==true;\n\t\t\tCheckbox5.isDisabled==true;\n\t\t} else if (Checkbox4.isChecked==true){\n\t\t\tCheckbox2.isDisabled==true;\n\t\t\tCheckbox3.isDisabled==true;\n\t\t\tCheckbox1.isDisabled==true;\n\t\t\tCheckbox5.isDisabled==true;\n\t\t} else if (Checkbox5.isChecked==true){\n\t\t\tCheckbox2.isDisabled==true;\n\t\t\tCheckbox3.isDisabled==true;\n\t\t\tCheckbox4.isDisabled==true;\n\t\t\tCheckbox1.isDisabled==true;\n\t\t\tstoreValue('answer', 10);\n\t\t}\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "HwanQ4_JSObject2",
+  "deleted": false,
+  "gitSyncId": "6358bf49561dcd1ffe6d1684_635c749c0078c75532789b40"
+}
