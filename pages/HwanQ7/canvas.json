@@ -315,6 +315,11 @@
                     },
                     {
                       "widgetName": "Checkbox3",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "isDisabled"
+                        }
+                      ],
                       "displayName": "Checkbox",
                       "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
                       "searchTags": [
@@ -344,7 +349,7 @@
                       ],
                       "labelPosition": "Left",
                       "onCheckChange": "{{JSObject2.myFun1()}}",
-                      "isDisabled": false,
+                      "isDisabled": "false",
                       "key": "2bxukfjrhb",
                       "isRequired": false,
                       "isDeprecated": false,
