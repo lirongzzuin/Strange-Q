@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "ChickenQ1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\tif(Checkbox1.isChecked == false && Checkbox2.isChecked == false && Checkbox3.isChecked == false && Checkbox4.isChecked == false && Checkbox5.isChecked == false){\n\t\t\tnavigateTo('ChickenQ1', {}, 'SAME_WINDOW');\n\t\t} else {\n\t\t\tnavigateTo('ChickenQ2', {}, 'SAME_WINDOW');\n\t\t}\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "ChickenQ1_JSObject1",
+  "deleted": false,
+  "gitSyncId": "6358bf49561dcd1ffe6d1684_635f71962a523703d95f4b45"
+}

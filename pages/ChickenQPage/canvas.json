@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 64,
+          "version": 74,
           "minHeight": 820,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -239,6 +239,7 @@
                       "isDeprecated": false,
                       "rightColumn": 48,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "ofv7lgabkc",
                       "isVisible": true,
                       "fontStyle": "BOLD",
@@ -248,7 +249,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "1.5rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.5rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "resetFormOnClick": false,
@@ -399,6 +402,7 @@
               "rightColumn": 0,
               "backgroundColor": "#faf5ff",
               "detachFromLayout": true,
+              "dynamicHeight": "FIXED",
               "widgetId": "p3edro2ei3",
               "canOutsideClickClose": true,
               "canEscapeKeyClose": true,
@@ -407,7 +411,9 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "1.5rem",
-              "width": 337.5
+              "maxDynamicHeight": 9000,
+              "width": 337.5,
+              "minDynamicHeight": 4
             },
             {
               "boxShadow": "none",
@@ -474,7 +480,7 @@
               "imageShape": "RECTANGLE",
               "leftColumn": 12,
               "dynamicBindingPathList": [],
-              "defaultImage": "https://ifh.cc/g/X538Wr.jpg",
+              "defaultImage": "https://ifh.cc/g/6gfLRk.png",
               "key": "bs0mf1c0ax",
               "image": "",
               "isDeprecated": false,
@@ -572,6 +578,7 @@
               "rightColumn": 63,
               "backgroundColor": "transparent",
               "textAlign": "CENTER",
+              "dynamicHeight": "FIXED",
               "widgetId": "ay1yo6ue07",
               "isVisible": true,
               "fontStyle": "BOLD",
@@ -581,7 +588,9 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "fontSize": "1.25rem"
+              "maxDynamicHeight": 9000,
+              "fontSize": "1.25rem",
+              "minDynamicHeight": 4
             },
             {
               "widgetName": "Text5",
@@ -621,6 +630,7 @@
               "isDeprecated": false,
               "rightColumn": 63,
               "textAlign": "CENTER",
+              "dynamicHeight": "FIXED",
               "widgetId": "yv8752w2nh",
               "isVisible": true,
               "fontStyle": "BOLD,ITALIC",
@@ -630,7 +640,9 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "fontSize": "0.875rem"
+              "maxDynamicHeight": 9000,
+              "fontSize": "0.875rem",
+              "minDynamicHeight": 4
             },
             {
               "boxShadow": "none",
@@ -703,6 +715,7 @@
               "isDeprecated": false,
               "rightColumn": 36,
               "textAlign": "CENTER",
+              "dynamicHeight": "FIXED",
               "widgetId": "7t59gjdysw",
               "isVisible": true,
               "fontStyle": "BOLD",
@@ -712,7 +725,9 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "fontSize": "1.25rem"
+              "maxDynamicHeight": 9000,
+              "fontSize": "1.25rem",
+              "minDynamicHeight": 4
             },
             {
               "boxShadow": "none",
